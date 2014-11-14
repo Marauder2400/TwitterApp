@@ -1,0 +1,217 @@
+body{
+	margin:0px;
+	padding:0px;
+	font: 15px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+	text-align: center;
+	background: #080343 ;
+	color:#DFDEF0 ;
+}
+
+#wrapper{
+  width: 100%;
+}
+
+#title_bar{
+	background:#9AD9EA;
+	color:#fff;
+	padding: 5px;
+	height: 50px;
+  width: 100%;
+}
+
+#title_bar_right{
+	float:right;
+}
+
+#title_bar_right ul{
+	margin:0px; 
+	padding:0px; 
+	list-style:none;
+	width:auto;
+	height:auto;
+	font-size:20px;
+}
+
+#title_bar_right ul li{
+	float: left;
+	padding: 5px;
+
+}
+
+#title_bar_right ul li a {
+	background:#9AD9EA;
+	color:#0B0B3B;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+#title_bar_right ul li a:hover {
+	background:#fff;
+	color:#9AD9EA;
+}
+
+#title_bar_left{
+	float:left;
+}
+
+#left_container{
+	float: left;
+	width: 60%;
+}
+
+#right_container{
+	float: right;
+	width: 40%;
+}
+
+
+#inner_left{
+	padding: 5px;
+	border-left: 1px solid #ccc;
+	border-right: 0.5px solid #ccc;
+	min-height:500px;
+}
+
+#inner_right{
+	padding: 5px;
+	border-left: 1px solid #ccc;
+	border-right: 0.5px solid #ccc;
+	min-height:500px;
+}
+
+
+#center{
+  width:100%;
+  height: 70%;
+}
+
+#footer{
+  width: 100%;
+	padding:10px;
+	border-top: 1px solid #ccc;
+
+}
+
+.clear{
+	clear:both; /*Clear both left and right*/
+}
+
+/*Responsive Web Design*/
+img,
+object {
+     max-width: 100%;
+     width: 100%;
+}
+
+@media screen and (max-width: 1000px){ /*600px and below*/
+  inner_right img {
+    height: 200px;
+  }
+
+    inner_left img {
+    height: 200px;
+  }
+
+}
+
+/*Styling of the login page */
+
+.container {
+  margin: auto;
+  width: 70%;
+  color: #080343;
+}
+
+.login {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 100%;
+  background: white;
+  border-radius: 3px; /*CSS3 property*/
+}
+
+  .head1 {
+    margin: -20px -20px 21px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    text-shadow: 0 1px white;/*CSS3 property*/                      
+    background: #f3f3f3;
+    border-bottom: 1px solid #cfcfcf; 
+    border-radius: 3px 3px 0 0;/*CSS3 property*/
+
+  }
+
+  p { margin: 20px 0 0; }
+  p:first-child { margin-top: 0; }
+  input[type=text], input[type=password] { width: 278px; }
+  p.submit { text-align: center; }
+
+
+input {
+  font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+input[type=text], input[type=password] {
+  margin: 5px;
+  padding: 0 10px;
+  width: 200px;
+  height: 34px;
+  color: #404040;
+  background: white;
+  border: 1px solid;
+  border-color: #c4c4c4 #d1d1d1 #d4d4d4;
+  border-radius: 2px; /*CSS3 property*/
+  outline: 5px solid #eff4f7;
+}
+
+input[type=submit] {
+  padding: 0 18px;
+  height: 29px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #527881;
+  text-shadow: 0 1px #e3f1f1;
+  background: #cde5ef;
+  border: 1px solid;
+  border-color: #b4ccce #b3c0c8 #9eb9c2;
+  border-radius: 16px; /*CSS3 property*/
+  outline: 0;
+
+  }
+
+/*Styling of table in viewFollowers and viewFollowing page*/
+
+.CSSTable {
+  vertical-align: middle;
+  margin:1px;
+  padding:0px;
+  width:100% ;
+  height: 100%;
+
+}
+
+
+.CSSTable td{
+  height:50%;
+  vertical-align:middle;
+  background-color:#DFDEF0;
+  text-align:center;
+  padding:16px;
+  font-size:80%;
+  font-weight:normal;
+  color:#080343;
+}
+
+.CSSTable tr:first-child td{
+  height: 50%;
+  text-align:center;
+  font-size:80%;
+  font-weight:bold;
+  color:#080343;
+}
